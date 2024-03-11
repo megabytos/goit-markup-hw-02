@@ -1,0 +1,182 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto', sans-serif;
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
+  --primary-light-color: #ffffff;
+  --secondary-light-color: #f4f4fd;
+  --primary-accent-color: #e7e9fc;
+  --secondary-accent-color: #0288d1;
+  --active-color: #404bbf;
+  --link-color: #4d5ae5;
+  --success-color: #31d0aa;
+  --helper-color: #8e8f99;
+  --hero-background-color: rgba(46, 47, 66, 0.7);
+  --modal-overlay-color: rgba(46, 47, 66, 0.4);
+  --modal-background-color: #fcfcfc;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  background-color: var(--primary-light-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  color: var(--secondary-color);
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: var(--link-color);
+}
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--secondary-color);
+  text-align: center;
+  cursor: pointer;
+}
+header nav ul a,
+header address a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+header nav ul a {
+  font-weight: 500;
+}
+header nav ul a:link,
+header nav ul a:visited {
+  color: var(--secondary-color);
+}
+header nav ul a:hover,
+header nav ul a:active,
+header nav ul a:focus {
+  color: var(--active-color);
+}
+
+header address a {
+  font-style: normal;
+}
+
+header address a:link,
+header address a:visited {
+  color: var(--primary-color);
+}
+header address a:hover,
+header address a:active,
+header address a:focus {
+  color: var(--active-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--secondary-light-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.logo span {
+  color: var(--link-color);
+}
+footer .logo {
+  color: var(--secondary-light-color);
+}
+
+.portfolio-filters button {
+  border: 1px solid var(--primary-accent-color);
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: var(--link-color);
+  background-color: var(--secondary-light-color);
+}
+.portfolio-filters button:hover,
+.portfolio-filters button:active,
+.portfolio-filters button:focus {
+  color: var(--primary-light-color);
+  background-color: #404bbf;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),  0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.portfolio-items h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+.hero {
+  background-color: var(--secondary-color);
+}
+.hero h1 {
+  text-align: center;
+  color: var(--primary-light-color);
+}
+.hero button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: var(--primary-light-color);
+  background-color: var(--link-color);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.hero button:hover,
+.hero button:active,
+.hero button:focus {
+  background-color: var(--active-color);
+}
+
+.works {
+  text-align: center;
+}
+.team {
+  text-align: center;
+  background-color: var(--secondary-light-color);
+}
