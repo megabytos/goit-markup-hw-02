@@ -20,8 +20,7 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-color);
   background-color: var(--primary-light-color);
-  font-size: 16px;
-  font-style: normal;
+  font-size: 16px;  
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -38,13 +37,11 @@ h6 {
   letter-spacing: 0.02em;
 }
 
-h1 {
-  font-weight: 700;
+h1 {  
   font-size: 56px;
   line-height: 1.07143;
 }
-h2 {
-  font-weight: 700;
+h2 {  
   font-size: 36px;
   line-height: 1.11111;
 }
@@ -66,6 +63,7 @@ a {
   letter-spacing: 0.04em;
   color: var(--link-color);
 }
+
 button {
   font-weight: 500;
   font-size: 16px;
@@ -75,36 +73,37 @@ button {
   text-align: center;
   cursor: pointer;
 }
-header nav ul a,
-header address a {
+
+
+.header-nav-link,
+.header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-header nav ul a {
+.header-nav-link {
   font-weight: 500;
 }
-header nav ul a:link,
-header nav ul a:visited {
+.header-nav-link:link,
+.header-nav-link:visited {
   color: var(--secondary-color);
 }
-header nav ul a:hover,
-header nav ul a:active,
-header nav ul a:focus {
+.header-nav-link:hover,
+.header-nav-link:active,
+.header-nav-link:focus {
   color: var(--active-color);
 }
 
-header address a {
+.header-address-link {
   font-style: normal;
 }
-
-header address a:link,
-header address a:visited {
+.header-address-link:link,
+.header-address-link:visited {
   color: var(--primary-color);
 }
-header address a:hover,
-header address a:active,
-header address a:focus {
+.header-address-link:hover,
+.header-address-link:active,
+.header-address-link:focus {
   color: var(--active-color);
 }
 
@@ -128,55 +127,54 @@ footer .logo {
   color: var(--secondary-light-color);
 }
 
-.portfolio-filters button {
+.portfolio-filters-button {
   border: 1px solid var(--primary-accent-color);
   border-radius: 4px;
   padding: 12px 24px;
   color: var(--link-color);
   background-color: var(--secondary-light-color);
 }
-.portfolio-filters button:hover,
-.portfolio-filters button:active,
-.portfolio-filters button:focus {
+.portfolio-filters-button:hover,
+.portfolio-filters-button:active,
+.portfolio-filters-button:focus {
   color: var(--primary-light-color);
   background-color: #404bbf;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),  0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
-.portfolio-items h2 {
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-.portfolio-items p {
-  font-weight: 400;
+.portfolio-item-type {  
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-color);
 }
-.hero {
+.hero-section {
   background-color: var(--secondary-color);
 }
-.hero h1 {
+.hero-section h1 {
   text-align: center;
   color: var(--primary-light-color);
 }
-.hero button {
+.hero-button {
   border-radius: 4px;
   padding: 16px 32px;
   color: var(--primary-light-color);
   background-color: var(--link-color);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.hero button:hover,
-.hero button:active,
-.hero button:focus {
+.hero-button:hover,
+.hero-button:active,
+.hero-button:focus {
   background-color: var(--active-color);
 }
 
-.works {
+.works-section {
   text-align: center;
 }
-.team {
+.members-section {
   text-align: center;
   background-color: var(--secondary-light-color);
 }
